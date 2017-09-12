@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Engineering Workstations UIUC Flex license: MDK-ARM Professional: 100 user(s) (mdk_pro) Operation stops: 15 Dec 2017
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional: 100 user(s)  Version: 5.20
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DARMP1.DLL V1.26.0.0
+Target DLL:      UL2CM3.DLL V1.157.18.0
+Dialog DLL:      TARMP1.DLL V1.25.0.0
+ 
+<h2>Project:</h2>
+C:\ece395\Code\TRM.uvproj
+Project File Date:  02/06/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_LPC11xx.s...
+compiling system_LPC11xx.c...
+compiling cpu_lpc1000.c...
+compiling Retarget.c...
+compiling gpio.c...
+compiling main.c...
+main.c(192): warning:  #550-D: variable "position" was set but never used
+  	int position[] = {511, 511, 511, 511, 511, 511, 511, 511, 511, 511, 511, 511, 511, 511};  // AX12 Angles in HEX, usable by driver
+main.c: 1 warning, 0 errors
+compiling i2c.c...
+compiling ssp.c...
+compiling timer32.c...
+compiling uart.c...
+uart.c(154): warning:  #550-D: variable "regVal" was set but never used
+    uint32_t regVal;
+uart.c: 1 warning, 0 errors
+compiling kalman.c...
+compiling mpu6050.c...
+compiling AX12.c...
+AX12.c(996): warning:  #1-D: last line of file ends without a newline
+  }*/
+AX12.c: 1 warning, 0 errors
+compiling nrf24l01.c...
+linking...
+Program Size: Code=13932 RO-data=736 RW-data=132 ZI-data=820  
+".\TRM.axf" - 0 Error(s), 3 Warning(s).
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

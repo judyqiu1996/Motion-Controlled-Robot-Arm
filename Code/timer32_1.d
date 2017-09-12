@@ -1,0 +1,9 @@
+.\timer32_1.o: timer32.c
+.\timer32_1.o: driver_config.h
+.\timer32_1.o: C:\Keil_v5\ARM\Inc\NXP\LPC11xx\LPC11xx.h
+.\timer32_1.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h
+.\timer32_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\timer32_1.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\timer32_1.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\timer32_1.o: C:\Keil_v5\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h
+.\timer32_1.o: timer32.h

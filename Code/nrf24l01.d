@@ -1,0 +1,11 @@
+.\nrf24l01.o: nrf24l01.c
+.\nrf24l01.o: driver_config.h
+.\nrf24l01.o: C:\Keil_v5\ARM\Inc\NXP\LPC11xx\LPC11xx.h
+.\nrf24l01.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm0.h
+.\nrf24l01.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\nrf24l01.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\nrf24l01.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\nrf24l01.o: C:\Keil_v5\ARM\Inc\NXP\LPC11xx\system_LPC11xx.h
+.\nrf24l01.o: timer32.h
+.\nrf24l01.o: nrf24l01.h
+.\nrf24l01.o: cpu_lpc1000.h

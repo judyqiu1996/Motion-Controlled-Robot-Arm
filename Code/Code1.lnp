@@ -1,0 +1,19 @@
+--cpu Cortex-M0
+".\startup_lpc11xx.o"
+".\system_lpc11xx.o"
+".\cpu_lpc1000.o"
+".\retarget.o"
+".\main.o"
+".\timer32_1.o"
+".\mpu6050.o"
+".\gpio.o"
+".\i2c.o"
+".\ssp.o"
+".\uart.o"
+".\ax12.o"
+".\kalman.o"
+".\nrf24l01.o"
+".\complementary.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Code1.map" -o .\Code1.axf

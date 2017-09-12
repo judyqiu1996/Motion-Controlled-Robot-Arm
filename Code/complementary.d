@@ -1,0 +1,9 @@
+.\complementary.o: complementary.c
+.\complementary.o: complementary.h
+.\complementary.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\complementary.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\complementary.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\complementary.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_misc.h
+.\complementary.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\complementary.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\complementary.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
